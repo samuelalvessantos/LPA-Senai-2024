@@ -3,21 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-	 
-	 inteiro numero 
-	 
-	 escreva("Digite um número inteiro: ")
-	 leia(numero)
-	 escreva("O número digitado foi: ",numero,".")
-	 
-	 }
+	     cadeia nome, sobrenome, endereco
+         escreva("Digite o seu nome: ")
+	    leia(nome)
+	    escreva("Digite o seu sobrenome: ")
+	    leia(sobrenome)
+	    escreva("Digite o seu endereco: ")
+	    leia(endereco)
+
+	    escreva(nome,sobrenome, "você mora na: ",endereco)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 234; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
